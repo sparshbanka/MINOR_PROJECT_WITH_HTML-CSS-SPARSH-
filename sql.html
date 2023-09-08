@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SQL QUESTIONS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="sql.png" >
+
+</head>
+
+<body class="new1">
+  <nav>
+    <a class="in" href="index.html"><img src="home1.png" length="7%" width="7%"></a>
+    <a class="m" href="interview.html"><img src="in.png" length="7%" width="7%"> </a>
+    <a class="m" href="py.html"><img src="python-logo.png" length="7%" width="7%"></a>
+    <a class="m" href="java.html"><img src="java.png" length="7%" width="7%"></a>
+    <a class="m" href="c.html"> <img src="c.png" length="7%" width="7%"></a>
+    <a class="m" href="oop.html"><img src="oop.png" length="7%" width="7%"></a>
+
+  </nav>
+  <br> 
+
+  <center><img src="sql.png" height="33%" width="30%" alt=logo></img></center>
+  <h1>SQL interview questions</h1>
+  <h3>1. Define SQL.</h3>
+  <p>SQL stands for Structured Query Language. As the name indicates it’s used to query structured data which is stored
+    in the database. It allows users to access and manipulate data in databases. </p>
+  <h3>2. Define Database.</h3>
+  <p>The database is defined as the storage unit in which the set of data is stored (or) The database is defined as
+    collection of structured data in a system. There are four types of databases<br><br>
+
+    -> Relational Database Systems<br><br>
+
+    -> Hierarchical Database Systems<br><br>
+
+    -> Network Database Systems<br><br>
+
+    -> Object-Oriented Database Systems
+  </p>
+  <h3>3. Types of commands in DBMS</h3>
+  <p>SQL commands are defined as set of instructions which are used to interact with the database. There are four types
+    of commands in SQL based on how we manipulate database. They are<br><br>
+
+    ->DDL – These commands are responsible for defining the structure of table like CREATE, ALTER, DROP and
+    TRUNCATE<br><br>
+
+    ->DML – These commands are used to manipulate the database like INSERT, UPDATE and DELETE.<br><br>
+
+    ->DCL – These commands are used to grant permissions to user<br><br>
+
+    ->TCL – These commands are used to control the Transactions in a database include ROLLBACK, COMMIT, SAVEPOINT.</p>
+  <h3>4. Difference between ALTER and UPDATE command</h3>
+  <p>ALTER command is used to modify the attributes(columns) in the table where as UPDATE command is used to update the
+    records(rows)in the table.</p>
+  <h3>5. Difference between HAVING and WHERE clause</h3>
+  <p>WHERE is used to put a condition on individual row of a table whereas HAVING is used to put condition on individual
+    group formed by GROUP BY Clause in SELECT Statement.</p>
+  <h3>6. Difference between DELETE and DROP command</h3>
+  <p>DELETE command is used to delete the records present in a table from the database but the schema and constraints of
+    that table are still present in that database. When it comes to DROP command, the entire table is going to delete
+    from the database including its constraints, schema and records.</p>
+  <h3>7. Define Schema</h3>
+  <p>Schema is defined as the structure or design of the database. There are two types of schemas in DBMS they are
+    Physical Schema, Logical Schema.</p>
+  <h3>8. Explain the concept of Normalization.</h3>
+  <p>The Normalization is a database design technique that cuts down data redundancy which helps us to remove three
+    anomalies(Insertion, Deletion and Updation Anomaly). Oter purpose of normalizing database is to the make sure that
+    the data dependencies make sense and are logically stored. </p>
+  <h3> 9. What are Joins and their types in SQL?</h3>
+  <p>The joins are used when one want to pair up two tuples from two different tables when a specifies condition is met.
+    Mainly there are three types of joins in SQL
+
+    -> Natural Join<br><br>
+
+    -> Outer Join<br><br>
+
+    -> Equi Join</p>
+  <h3>10. Explain Constraints in SQL.</h3>
+  <p>Constraints are the set of rules that are imposed on the table during data insertion. These can be applied either
+    on column level or table level. There are five constraints in SQL<br><br>
+
+    ->UNIQUE – Ensures only unique values are inserted into column<br><br>
+
+    ->CHECK- Used to check whether column met a condition or not.<br><br>
+
+    ->NOT NULL – This is to ensure the data must be present in the column instead of accepting NULL values.<br><br>
+
+    ->PRIMARY KEY – Used to uniquely identify each row in table.(Combination of NOT NULL and UNIQUE)<br><br>
+
+    ->FOREIGN KEY – When we want to relate two or more tables based on common column among them then this constraint is
+    used. </p>
+  <h3>11. What is meant by Transaction in SQL? Explain ACID properties.</h3>
+  <p>In SQL Transaction is defined as the sequence of operations that are performed on the database. The ACID properties
+    are used to maintain consistency in the database.<br><br>
+
+    ->Atomicity(A) – Ensures the transaction happens in a sequential manner not all at a time.<br><br>
+
+    ->Consistency (C) – The database must same before and after the transaction.<br><br>
+
+    ->Isolation(I) – More than once transaction occur independently without colliding with each other.<br><br>
+
+    ->Durability(D) – Once transaction has completed the modifications of the database are stored permanently even if
+    the system fails.</p>
+  <h3>12. What are Triggers in SQL?</h3>
+  <p>A SQL trigger is special stored procedure that is run when specific actions occur within a database. Most database
+    triggers are defined to run when changes are made to a table’s data. Triggers can be defined to run instead of or
+    after DML (Data Manipulation Language) actions such as INSERT, UPDATE, and DELETE.</p>
+  <h3>13. Difference between SQL and NOSQL?</h3>
+  <p>The basic difference between them is when one want to extract structured data from database then SQL comes into
+    picture but when one want to work with unstructured data then NOSQL comes into picture. The SQL databases have
+    static amount of storage to store data whereas NOSQL databases are dynamic.SQL examples include MySQL, Oracle and
+    NOSQL Examples includes MongoDB, Couch DB,GraphQL & Cassandra.</p>
+  <h3>14. ETL in SQL?</h3>
+  <p>ETL stands for Extract Transfer and Load. ETL is defined as the three-stage process where data is extracted,
+    transformed (cleaned) and loaded into output data container.</p>
+  <h3>15. Are NULL values are same as that of zero/ blank space?</h3>
+  <p>The answer is NO. Null is value in Database which is used to store no value in the database at a specific field.
+    When it comes to zero and blank space these are considered as values as they are ASCII valued characters.</p>
+</body>
+
+</html>
+
+
+</body>
+
+</html>

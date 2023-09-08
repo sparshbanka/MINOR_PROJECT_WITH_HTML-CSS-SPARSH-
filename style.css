@@ -1,0 +1,173 @@
+pp{
+  background-color: white;
+}
+.t {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+.new {
+  /*   font-family: avenir; */
+  font-family: cursive;
+  font-weight: bolder;
+
+}
+
+.k {
+  border: black solid 5px;
+  color: whitesmoke;
+  border-radius: 3px;
+  padding: 12px;
+  text-decoration: none;
+
+
+}
+
+.m {
+  color: black;
+  font-size: 18px;
+  /* background-color: rgb(216, 216, 216); */
+  color: black;
+  /*   background-color:#b2243c ; */
+  font-weight: bold;
+  font-size: 30px;
+  border: none;
+  /* border: #0111e9 solid 1px; */
+
+}
+
+
+.u {
+  /* text-decoration: underline #2f38c1 4px; */
+  margin: 2px;
+  border: solid 4px black;
+  border-radius: 25px;
+  color: #05b8ff;
+  padding: 3px;
+
+
+}
+
+strong {
+  background-color: greenyellow;
+}
+
+h1 {
+
+  text-align: center;
+  color: black;
+
+  /*   background-color: #0000; */
+  font-family: verdana;
+  font-size: 30px;
+
+}
+
+body {
+  background-color: crimson;
+}
+
+h3 {
+  /* font-family: 'Times New Roman', Times, serif; */
+  color: #3cc9ec;
+  background-color: black;
+  font-size: 27px;
+
+
+}
+
+p {
+background-color: white; 
+
+;
+
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 24px;
+  
+  /*   text-transform: uppercase; */
+}
+
+
+h2 {
+
+  text-align: center;
+  color: #d32240;
+  background-color: #0000;
+  font-family: verdana;
+  font-size: 30px;
+
+
+
+}
+
+img {
+  border-radius: 12px;
+  border: black solid 3px;
+}
+
+.new1 {
+  background-color: cornflowerblue;
+
+
+
+}
+
+.in {
+  border: none
+}
+
+.div1 {
+    border: solid black 10px;
+
+  background-color: orange;
+  /* background-image: url("sql.png"); */
+  /* text-align: right; */
+  
+}
+
+.div2 {
+  background-color: green;
+      border: solid black 10px;
+
+}
+
+.div3 {
+  background-color: red;
+      border: solid black 10px;
+
+
+
+}
+
+.div4 {
+  background-color: #c15cc1;
+      border: solid black 10px;
+
+
+}
+
+.div5 {
+  background-color: #3030d9;
+      border: solid black 10px;
+  
+
+
+}
+
+.div6 {
+  background-color: grey;
+      border: solid black 10px;
+
+
+}
+nav{
+  background-color: black;
+border: 2px blue ;
+  border-radius: 15px;
+  bor
+  
+
+}

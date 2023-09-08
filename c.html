@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>C QUESTIONS</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="new1">
+  <nav>
+    <a class="in" href="index.html"><img src="home1.png" length="7%" width="7%"> </a>
+    <a class="m" href="interview.html"><img src="in.png" length="7%" width="7%"> </a>
+    <a class="m" href="py.html"><img src="python-logo.png" length="7%" width="7%"></a>
+    <a class="m" href="java.html"><img src="java.png" length="7%" width="7%"></a>
+   <a class="m" href="sql.html"><img src="sql.png" length="7%" width="7%"></a>
+    <a class="m" href="oop.html"><img src="oop.png" length="7%" width="7%"></a>
+ </nav>
+  <br>
+
+
+  <center> <img src="c.png" height="33%" width="25%" alt=logo></img></center>
+  <h1>C programming Interview Questions</h1>
+  <h3>1.Define C </h3>
+  <p>C is a general Purpose, Procedure oriented Programming language created by Dennis Ritchie in 1970’s. It’s the
+    mother of all high-level programming languages.</p>
+  <h3>2. In C data types are divided into how many types ?</h3>
+  <p>The data types in C are broadly divided into two types<br><br>
+
+    1) <strong> Primitive Data Types</strong>: Floating Point, Integer, Double, Character<br><br>
+
+    2) <strong>User Defined Data Types</strong>: Union, Structure, Enum and Typedef </p>
+  <h3>3. Explain Ternary operator in C.</h3>
+  <p>The ternary operator in C is a special operator which is short of using conditional statements<br><br>
+
+    <strong>Syntax </strong>: testCondition ? Expression1: expression2;<br><br>
+
+    If the condition is True then expression one is executed else the expression 2 is executed.
+  </p>
+  <h3>4. Need of pointers in C.</h3>
+  <p>Pointers in C are used to implement dynamic memory allocation and also faster access of array elements using their
+    id(address) directly instead of accessing them using their indices. They are indirectly going to save memory space
+    by dynamically allocating space.</p>
+  <h3>5. In C how many ways we can access the functions</h3>
+  <p>There are two ways we can access the functions in C programming language.<br><br>
+
+    1) <strong>Call By Reference</strong> : An address or id of the variable is passed as an argument to the
+    function<br><br>
+
+    2)<strong>Call by Value</strong> : the copy of the variable is passed as arguments to the function.</p>
+  <h3>6. Use of Modifier in C</h3>
+  <p>As the name indicates the modifiers in C are used to modify the value of a variables especially integer and
+    character variables. Theya re going to specify the amount of space to be allocated to a variable. There are two
+    types of modifiers in C <strong>Size Modifiers</strong>-short , long and<strong> Sign modifiers</strong> – signed
+    and unsigned.</p>
+  <h3>7. How to free memory that has allocated previously in C?</h3>
+  <p> Free() is a method in C which is going to deallocate or free the memory.
+  </p>p>
+  <h3>8. Storage class specifiers in C.
+
+  </h3>
+  <p>In C there are four storage class specifiers<br><br>
+
+    1.<strong>Auto</strong> – the default storage class for all variables inside a block in C. The stack is used as
+    storage unit. The scope of these variables are within the block where they are declared. Initial value of extern
+    variables is Garbage Value.<br><br>
+    2. <strong>Extern</strong> – The scope of these type of variables is global. The main purpose of extern variable is
+    to
+    access they can be accessed between two or more files which are part of same program. The default value for these
+    are
+    zero(0)<br><br>
+    3. <strong>Static</strong> – These have the capability to store the value even they are out their scope. The default
+    value of static variables is zero(0).<br><br>
+    4. <strong>Register</strong> – When one wants to sore the variables in the registers of the microprocessor directly
+    then they re declared as register variables. The default value for these variables is Garbage Value</p>
+  <h3>9. Difference between structure and Unions in C</h3>
+  <p>Both structure and Union are user defined data types in C but the basic difference between them is union is much
+    more
+    efficient to use in terms of memory management because the memory occupied by structure is the sum of all the
+    parameter’s size in C when it comes to Union the memory occupied by it the maximum parameters size</p>
+  <h3>10. Difference between Macro and Function in C</h3>
+  <p>The basic difference is that the Macros are defined using pre processor directives which means they are going to
+    initialize or process the function even before it compiles but the functions are initialized only after compilation
+    of
+    the program.</p>
+  <h3>11. DMA in C and explain how it can be achieved?</h3>
+  <p> DMA stands for Dynamic Memory Allocation in C. The root of DMA implementation are pointers but actually the DMA is
+    implemented through malloc()[ Memory Allocation ] and calloc() [
+    Contagious Allocation ] functions.</p>
+  <h3>12. Difference between #include<> and #include ” “</h3>
+  <p> #include<> is used to include pre-defined header files in the current c program whereas #include is used to
+      include
+      the user defined header files in c program.</p>
+  <h3>13. is it possible to compile C program without main() function?</h3>
+  <p> Yes we can compile the c program without main function by indirectly defining it as macro using pre processor
+    directive as follows:<br><br>
+
+    #include&lt;stdio.h&gt;<br><br>
+
+    #define sample main<br><br>
+
+    Void sample()<br><br>
+
+    {<br><br>
+
+    Printf(“Hello Curious Coders”);<br><br>
+
+    }
+  </p>
+  <h3>14. Steps involved in c program compilation process</h3>
+  <p>
+    Mainly there are four steps involved in c program compilation process<br><br>
+    -> Preprocessing – Removal of comments, inclusion of files done here<br><br>
+
+    -> Compiling – Intermediate code is produced here<br><br>
+
+    -> Assembling – Machine level code is produced here<br><br>
+
+    -> Linking – Links all the function calls with their definitions in the program
+
+
+  </p>
+  <h3>15. Does null character occupies space in memory?</h3>
+  <p>Yes, the null character occupies space in memory. The strings in C are ended with null character (‘\0’) so one byte
+    of memory is occupied by the null character in memory during its initialization.</p>
+</body>
+
+</html>
